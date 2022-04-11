@@ -30,16 +30,16 @@ struct Home: View {
                 let size = proxy.size
                 ZStack {
                     // MARK: Water Drop
-                    Image(systemName: "drop.fill")
+                    Image(systemName: "heart.fill")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .foregroundColor(.white)
+                        .foregroundColor(.gray)
                     // Streching in X Axis
-                        .scaleEffect(x: 1.1, y: 1)
+                        .scaleEffect(x: 1, y: 1)
                         .offset(y: -1)
                     // Wave Form Shape, offset: size.width ->
-                    WaterWave(progress: progress, waveHeight: 0.05, offset: startAnimation)
-                        .fill(Color("Blue"))
+                    WaterWave(progress: progress, waveHeight: 0.03, offset: startAnimation)
+                        .fill(Color("Red"))
                     // Water Drops
                         .overlay(content: {
                             ZStack {
@@ -69,10 +69,10 @@ struct Home: View {
                     
                     // Masking into Drop Shape
                         .mask {
-                            Image(systemName: "drop.fill")
+                            Image(systemName: "heart.fill")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .padding(20)
+                                //.padding(10)
                                 
                         }
                     // Add Button
