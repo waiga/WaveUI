@@ -14,6 +14,7 @@
 		5FBF7DCF2803BAB80014F31F /* WaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF7DCE2803BAB80014F31F /* WaveUITests.swift */; };
 		5FBF7DD92803BAB80014F31F /* WaveUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF7DD82803BAB80014F31F /* WaveUIUITests.swift */; };
 		5FBF7DDB2803BAB80014F31F /* WaveUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF7DDA2803BAB80014F31F /* WaveUIUITestsLaunchTests.swift */; };
+		5FBF7DE92803BB6F0014F31F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF7DE82803BB6F0014F31F /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5FBF7DD42803BAB80014F31F /* WaveUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBF7DD82803BAB80014F31F /* WaveUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveUIUITests.swift; sourceTree = "<group>"; };
 		5FBF7DDA2803BAB80014F31F /* WaveUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5FBF7DE82803BB6F0014F31F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		5FBF7DBC2803BAB60014F31F /* WaveUI */ = {
 			isa = PBXGroup;
 			children = (
+				5FBF7DE72803BB0F0014F31F /* View */,
 				5FBF7DBD2803BAB60014F31F /* WaveUIApp.swift */,
 				5FBF7DBF2803BAB60014F31F /* ContentView.swift */,
 				5FBF7DC12803BAB80014F31F /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				5FBF7DDA2803BAB80014F31F /* WaveUIUITestsLaunchTests.swift */,
 			);
 			path = WaveUIUITests;
+			sourceTree = "<group>";
+		};
+		5FBF7DE72803BB0F0014F31F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FBF7DE82803BB6F0014F31F /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FBF7DC02803BAB60014F31F /* ContentView.swift in Sources */,
+				5FBF7DE92803BB6F0014F31F /* Home.swift in Sources */,
 				5FBF7DBE2803BAB60014F31F /* WaveUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
